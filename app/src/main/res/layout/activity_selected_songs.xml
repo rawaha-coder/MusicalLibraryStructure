@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/MainActivityStyle"
+    tools:context=".SelectedSongsActivity">
+
+    <include
+        layout="@layout/navigation_menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true" />
+
+    <LinearLayout
+        android:id="@+id/activity_songs_ll"
+        style="@style/MainActivityStyle"
+        android:layout_below="@+id/navigation_menu"
+        android:layout_marginBottom="60dp"
+        android:orientation="vertical">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_songs"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </androidx.recyclerview.widget.RecyclerView>
+    </LinearLayout>
+
+    <androidx.appcompat.widget.AppCompatSeekBar
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/SeekBar_height"
+        android:layout_above="@+id/play_now_group_view"
+        android:layout_marginTop="@dimen/SeekBar_margin"
+        android:layout_marginBottom="@dimen/SeekBar_margin" />
+
+    <include
+        layout="@layout/play_now_gadget"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true" />
+
+</RelativeLayout>

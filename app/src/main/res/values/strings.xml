@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">MusicalLibraryStructure</string>
+    <string name="all_songs">All Songs</string>
+    <string name="artists">Artists</string>
+    <string name="albums">Albums</string>
+    <string name="playlist">Playlist</string>
+    <string name="playing_song">Playing Song</string>
+    <string name="song_image">Song image</string>
+    <string name="song_title"></string>
+    <string name="fast_rewind">Fast rewind</string>
+    <string name="play_song">Play song</string>
+    <string name="fast_forward">Fast forward</string>
+    <string name="detail">More detail</string>
+    <string name="now_playing_message">Now Playing: </string>
+    <string name="songs">Songs</string>
+    <string name="add_to_playlist">Add to playlist</string>
+    <string name="leave_app">Do you want to leave the App?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="existInPlaylist">Exist in playlist</string>
+    <string name="addToPlaylist">: added to playlist</string>
+    <string name="removeFromPlaylist">: removed from playlist</string>
+
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="ic_play_song_dimen">48dp</dimen>
+    <dimen name="ic_play_song_margin">16dp</dimen>
+    <dimen name="SeekBar_margin">2dp</dimen>
+    <dimen name="SeekBar_height">6dp</dimen>
+    <dimen name="NowPlayingSongImage">300dp</dimen>
+</resources>

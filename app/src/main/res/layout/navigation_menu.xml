@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/navigation_menu"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center">
+
+        <Button
+            android:id="@+id/btn_all_songs"
+            style="@style/NavigationMenuButtons"
+            android:text="@string/all_songs" />
+
+        <Button
+            android:id="@+id/btn_playlist"
+            style="@style/NavigationMenuButtons"
+            android:text="@string/playlist" />
+
+        <Button
+            android:id="@+id/btn_list_albums"
+            style="@style/NavigationMenuButtons"
+            android:text="@string/albums" />
+
+        <Button
+            android:id="@+id/btn_list_artists"
+            style="@style/NavigationMenuButtons"
+            android:text="@string/artists" />
+
+</LinearLayout>
