@@ -15,4 +15,4 @@ Using explicit Intents to link between activities in your app.
 Using OnClickListeners to add behavior to buttons using Java code.
 Creating your own Custom Class
 Looping through an ArrayList
-Populating a ListView or GridView with an ArrayAdapter
+Populating a ListView or GridView with an ArrayAdapter.
